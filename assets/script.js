@@ -27,3 +27,15 @@ const bannerText = document.querySelector("#banner p");
 const dots = document.querySelectorAll(".dot");
 
 let currentIndex = 0;
+
+arrowLeft.addEventListener("click", function() {
+	currentIndex = (currentIndex > 0) ? currentIndex - 1 : slides.length - 1;
+	updateSlide(currentIndex);
+	console.log("Click sur la flèche gauche");
+});
+
+arrowRight.addEventListener("click", function() {
+	currentIndex = (currentIndex < slides.length - 1) ? currentIndex + 1 : 0;
+	updateSlide(currentIndex);
+	console.log("Click sur la flèche droite");
+});
