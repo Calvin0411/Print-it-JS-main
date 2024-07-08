@@ -15,4 +15,15 @@ const slides = [
 		"image":"slide4.png",
 		"tagLine":"Autocollants <span>avec découpe laser sur mesure</span>"
 	}
-]
+];
+
+console.log("Hello World !");
+	// premier pas sur le Java Script
+
+const arrowLeft = document.querySelector(".arrow_left");
+const arrowRight = document.querySelector(".arrow_right");
+const bannerImg = document.querySelector("banner-img");
+const bannerText = document.querySelector ("#banner p");
+const dots = document.querySelector(".dot")
+
+
