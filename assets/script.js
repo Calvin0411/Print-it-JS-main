@@ -22,8 +22,8 @@ console.log("Hello World !");
 
 const arrowLeft = document.querySelector(".arrow_left");
 const arrowRight = document.querySelector(".arrow_right");
-const bannerImg = document.querySelector("banner-img");
-const bannerText = document.querySelector ("#banner p");
-const dots = document.querySelector(".dot")
+const bannerImg = document.querySelector(".banner-img");
+const bannerText = document.querySelector("#banner p");
+const dots = document.querySelectorAll(".dot");
 
-
+let currentIndex = 0;
