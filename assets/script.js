@@ -28,6 +28,18 @@ const dots = document.querySelectorAll(".dot");
 
 let currentIndex = 0;
 
+function onArrowLeftClick() {
+	currentIndex= (currentIndex > 0)? currentIndex - 1 :slides.length -1;
+}
+
+
+function onArrowRightClick() {
+	currentIndex= (currentIndex > 0)? currentIndex - 1 :slides.length -1;
+}
+
+
+
+
 arrowLeft.addEventListener("click", function() {
 	currentIndex = (currentIndex > 0) ? currentIndex - 1 : slides.length - 1;
 	updateSlide(currentIndex);
