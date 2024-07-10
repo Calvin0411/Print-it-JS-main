@@ -38,6 +38,11 @@ function onArrowRightClick() {
 }
 
 
+function updateSlide(index) {
+	const slide = slides[index];
+	bannerImg.src = `./assets/images/slideshow/${slide.image}`;
+	bannerText.innerHTML = slide.tagLine;
+}
 
 
 arrowLeft.addEventListener("click", function() {
