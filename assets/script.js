@@ -66,3 +66,8 @@ dots.addEventListener("click", function(){
 	console.log("changement de point");
 })
 
+dots.addEventListener("click", function(){
+	currentIndex = (currentIndex < slides.length - 1) ? currentIndex + 1 : 0;
+	updatedots(currentIndex);
+	console.log("changement de point");
+})
