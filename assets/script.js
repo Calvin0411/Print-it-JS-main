@@ -56,3 +56,13 @@ arrowRight.addEventListener("click", function() {
 	updateSlide(currentIndex);
 	console.log("Click sur la flèche droite");
 });
+
+//Partie avec les points
+
+
+dots.addEventListener("click", function(){
+	currentIndex = (currentIndex > 0) ? currentIndex - 1 : slides.length - 1;
+	updatedots(currentIndex);
+	console.log("changement de point");
+})
+
