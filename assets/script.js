@@ -1,3 +1,5 @@
+//déclaration de mes varibales de mon tableau
+
 const slides = [
 	{
 		"image":"slide1.jpg",
@@ -57,7 +59,7 @@ arrowRight.addEventListener("click", function() {
 	console.log("Click sur la flèche droite");
 });
 
-//Partie avec les points
+
 
 
 dots.addEventListener("click", function(){
