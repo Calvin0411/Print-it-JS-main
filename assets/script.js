@@ -71,5 +71,3 @@ arrowRight.addEventListener("click", function() {
     }
     carrousel();
 });
-
-
