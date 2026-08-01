@@ -21,6 +21,8 @@ const slides = [
 
 console.log("Hello World!");
 
+document.getElementById("year").textContent = new Date().getFullYear();
+
 //déclaration de mes variables d'éléments classes
 const arrowLeft = document.querySelector(".arrow_left");
 const arrowRight = document.querySelector(".arrow_right");

@@ -1,5 +1,7 @@
 # Print It - Dynamisation du site d'une imprimerie familiale
 
+![alt text](assets/images/logo.png)
+
 Ce projet consistait à rendre interactif le site vitrine de l'entreprise "Print It" en remplaçant une bannière statique par un carrousel (slider) dynamique fonctionnant en JavaScript pur.
 
 ## 📝 Objectifs du projet
@@ -25,3 +27,8 @@ Ce projet consistait à rendre interactif le site vitrine de l'entreprise "Print
 
 ## 🌐 Aperçu du projet
 Le site est consultable ici : https://print-it-calvin.netlify.app/
+
+![alt text](assets/images/slideshow/slide1.jpg)
+![alt text](assets/images/slideshow/slide2.jpg)
+![alt text](assets/images/slideshow/slide3.jpg)
+![alt text](assets/images/slideshow/slide4.png)
